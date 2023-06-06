@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 RangeSum", "RangeSum\5 Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 NumberOfPossibleRoutes", "NumberOfPossibleRoutes\6 NumberOfPossibleRoutes.csproj", "{6F1A413B-27C7-41CD-BEB6-FCD214131542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 ArithmeticOperation", "ArithmeticOperation\7 ArithmeticOperation.csproj", "{21430C88-7652-49FE-93E9-D654F4831092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6F1A413B-27C7-41CD-BEB6-FCD214131542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F1A413B-27C7-41CD-BEB6-FCD214131542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F1A413B-27C7-41CD-BEB6-FCD214131542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21430C88-7652-49FE-93E9-D654F4831092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21430C88-7652-49FE-93E9-D654F4831092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21430C88-7652-49FE-93E9-D654F4831092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21430C88-7652-49FE-93E9-D654F4831092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
