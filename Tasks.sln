@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3 NumberInTheRange", "Numbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4 ParityCheck", "ParityCheck\4 ParityCheck.csproj", "{A5D17A5C-B962-4152-A683-8F594A9E4311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeSum", "RangeSum\RangeSum.csproj", "{F0709955-F878-49FA-99B4-DB1093C7DD32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 RangeSum", "RangeSum\5 RangeSum.csproj", "{F0709955-F878-49FA-99B4-DB1093C7DD32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
