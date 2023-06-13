@@ -1,4 +1,12 @@
-﻿
+﻿//Создать массив размера N элементов, заполнить его произвольными
+//целыми значениями (размер массива задает пользователь).
+//Вывести на экран: наибольшее значение массива, наименьшее значение массива,
+//общую сумму всех элементов, среднее арифметическое всех элементов, вывести все нечетные значения.  
+
+
+
+
+
 WorkingWithAnArray();
 Console.ReadLine();
 
@@ -14,6 +22,7 @@ static void WorkingWithAnArray()
     Console.WriteLine("Максимальное число в массиве: {0}",array.Max());
     Console.WriteLine("Общая сумма чисел в массиве: {0}", TotalSumInArray(array));
     Console.WriteLine("Среднее арифмитическое в массиве: {0}", ArithmeticMeanInArray(array));
+    Console.WriteLine("Среднее арифмитическое в массиве: {0}", array.Average());
     Console.WriteLine("Все нечётные числа в массиве:");
     ShowArray(AllOddNumbersInTheArray(array));
 }
