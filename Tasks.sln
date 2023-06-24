@@ -27,9 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{086AFF2A-6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.0 ReverseAndSubArray", "ReverseAndSubArray\2.0 ReverseAndSubArray.csproj", "{68E9FC5C-E8F2-49CE-9270-D8A109F691E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1 TemperatureCelsiusAndFahrenheit", "TemperatureCelsiusAndFahrenheit\2.1 TemperatureCelsiusAndFahrenheit.csproj", "{C9E5EFAB-3CC3-45B9-AA1D-29B9633F9383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1 TemperatureCelsiusAndFahrenheit", "TemperatureCelsiusAndFahrenheit\2.1 TemperatureCelsiusAndFahrenheit.csproj", "{C9E5EFAB-3CC3-45B9-AA1D-29B9633F9383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2 PointCoordinates", "PointCoordinates\2.2 PointCoordinates.csproj", "{C334E60F-3364-4FF1-AD01-E0559A5EA692}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2 PointCoordinates", "PointCoordinates\2.2 PointCoordinates.csproj", "{C334E60F-3364-4FF1-AD01-E0559A5EA692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 HappyTicket", "HappyTicket\2.3 HappyTicket.csproj", "{D5C8FF07-9228-4E5B-86A3-F71070093108}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{C334E60F-3364-4FF1-AD01-E0559A5EA692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C334E60F-3364-4FF1-AD01-E0559A5EA692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C334E60F-3364-4FF1-AD01-E0559A5EA692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C8FF07-9228-4E5B-86A3-F71070093108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C8FF07-9228-4E5B-86A3-F71070093108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C8FF07-9228-4E5B-86A3-F71070093108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C8FF07-9228-4E5B-86A3-F71070093108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
