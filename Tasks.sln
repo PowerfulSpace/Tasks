@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1 TemperatureCelsiusAndFa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2 PointCoordinates", "PointCoordinates\2.2 PointCoordinates.csproj", "{C334E60F-3364-4FF1-AD01-E0559A5EA692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3 HappyTicket", "HappyTicket\2.3 HappyTicket.csproj", "{D5C8FF07-9228-4E5B-86A3-F71070093108}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.3 HappyTicket", "HappyTicket\2.3 HappyTicket.csproj", "{D5C8FF07-9228-4E5B-86A3-F71070093108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.4 LetterCase", "LetterCase\2.4 LetterCase.csproj", "{DD479DE5-A3EB-4BC9-8A75-F9F34F6DF0D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{D5C8FF07-9228-4E5B-86A3-F71070093108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C8FF07-9228-4E5B-86A3-F71070093108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C8FF07-9228-4E5B-86A3-F71070093108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD479DE5-A3EB-4BC9-8A75-F9F34F6DF0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD479DE5-A3EB-4BC9-8A75-F9F34F6DF0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD479DE5-A3EB-4BC9-8A75-F9F34F6DF0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD479DE5-A3EB-4BC9-8A75-F9F34F6DF0D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
