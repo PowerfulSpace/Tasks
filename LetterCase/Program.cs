@@ -11,29 +11,33 @@ Console.ReadLine();
 
 static void LetterCase()
 {
-    string chars = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+    string myChars = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
 
-    List<char> lowerСase = new List<char>();
-    List<char> upperСase = new List<char>();
+    List<char> MyCase = new List<char>();
+
 
     char key;
     int keyDigit;
 
-    for (int i = 0; i < chars.Length; i++)
+    for (int i = 0; i < myChars.Length; i++)
     {
-        lowerСase.Add(chars[i]);
-
-        keyDigit = chars[i];
-        keyDigit -= 32;
-        key = (char)keyDigit;
-        upperСase.Add(key);
+        keyDigit = myChars[i];
+        if (keyDigit >= 1040 && keyDigit <= 1071)
+        {
+            keyDigit += 32;
+            key = (char)keyDigit;
+            MyCase.Add(key);
+        }
+        else if(keyDigit >= 1072 && keyDigit <= 1103)
+        {
+            keyDigit -= 32;
+            key = (char)keyDigit;
+            MyCase.Add(key);
+        }
     }
-
-    Console.WriteLine("Нижний регистр");
-    Show(lowerСase.ToArray());
+    Show(myChars.ToArray());
     Console.WriteLine();
-    Console.WriteLine("Верхний регистр");
-    Show(upperСase.ToArray());
+    Show(MyCase.ToArray());
 }
 
 
