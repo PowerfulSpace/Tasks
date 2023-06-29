@@ -43,7 +43,6 @@ static void TriangleOfNumbers()
 
 
 
-
 static int IsDigit()
 {
     int digit;
