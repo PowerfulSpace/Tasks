@@ -43,11 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.7 InitialBankDeposit", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.8 ReadingCharacters", "ReadingCharacters\2.8 ReadingCharacters.csproj", "{F0BA0501-386B-41E4-A0AE-263BC929CF3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.9 TriangleOfNumbers", "TriangleOfNumbers\2.9 TriangleOfNumbers.csproj", "{83A9428F-4122-40A6-9D41-4007A4E2F52A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.9 TriangleOfNumbers", "TriangleOfNumbers\2.9 TriangleOfNumbers.csproj", "{83A9428F-4122-40A6-9D41-4007A4E2F52A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.0 NumberReverse", "NumberReverse\3.0 NumberReverse.csproj", "{73911534-93C9-4763-B067-7D2A21A219A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.0 NumberReverse", "NumberReverse\3.0 NumberReverse.csproj", "{73911534-93C9-4763-B067-7D2A21A219A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1 SearchTextReplacement", "SearchTextReplacement\3.1 SearchTextReplacement.csproj", "{C03772DB-0D04-4C20-A243-4CE3E618ADDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1 SearchTextReplacement", "SearchTextReplacement\3.1 SearchTextReplacement.csproj", "{C03772DB-0D04-4C20-A243-4CE3E618ADDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2 CheckingAStringForAPalindrome", "CheckingAStringForAPalindrome\3.2 CheckingAStringForAPalindrome.csproj", "{077A94A9-ADD8-4B11-A886-DC7ACC82878F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +145,10 @@ Global
 		{C03772DB-0D04-4C20-A243-4CE3E618ADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03772DB-0D04-4C20-A243-4CE3E618ADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C03772DB-0D04-4C20-A243-4CE3E618ADDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077A94A9-ADD8-4B11-A886-DC7ACC82878F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077A94A9-ADD8-4B11-A886-DC7ACC82878F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077A94A9-ADD8-4B11-A886-DC7ACC82878F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077A94A9-ADD8-4B11-A886-DC7ACC82878F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
