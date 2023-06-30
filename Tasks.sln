@@ -51,11 +51,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1 SearchTextReplacement",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2 CheckingAStringForAPalindrome", "CheckingAStringForAPalindrome\3.2 CheckingAStringForAPalindrome.csproj", "{077A94A9-ADD8-4B11-A886-DC7ACC82878F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.3 CountingWordsInTheEnteredSentence", "CountingWordsInTheEnteredSentence\3.3 CountingWordsInTheEnteredSentence.csproj", "{FC2883CD-4AAD-4031-9E6F-8AD8F4F19D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.3 CountingWordsInTheEnteredSentence", "CountingWordsInTheEnteredSentence\3.3 CountingWordsInTheEnteredSentence.csproj", "{FC2883CD-4AAD-4031-9E6F-8AD8F4F19D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.4 CountingWordsThatEndInAVowel", "CountingWordsThatEndInAVowel\3.4 CountingWordsThatEndInAVowel.csproj", "{01CA79D6-4091-4DB8-A6C4-AD4BFD3DBAAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.4 CountingWordsThatEndInAVowel", "CountingWordsThatEndInAVowel\3.4 CountingWordsThatEndInAVowel.csproj", "{01CA79D6-4091-4DB8-A6C4-AD4BFD3DBAAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.5 SumOfElementsInArrayRange", "SumOfElementsInArrayRange\3.5 SumOfElementsInArrayRange.csproj", "{3F66CEBC-C0A2-4684-8569-1E8A5912620B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.5 SumOfElementsInArrayRange", "SumOfElementsInArrayRange\3.5 SumOfElementsInArrayRange.csproj", "{3F66CEBC-C0A2-4684-8569-1E8A5912620B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.6 MaximumValuesOfEachArrayColumn", "MaximumValuesOfEachArrayColumn\3.6 MaximumValuesOfEachArrayColumn.csproj", "{E97FB17D-BAD2-401B-BF37-0E38C1836156}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +169,10 @@ Global
 		{3F66CEBC-C0A2-4684-8569-1E8A5912620B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F66CEBC-C0A2-4684-8569-1E8A5912620B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F66CEBC-C0A2-4684-8569-1E8A5912620B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97FB17D-BAD2-401B-BF37-0E38C1836156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97FB17D-BAD2-401B-BF37-0E38C1836156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97FB17D-BAD2-401B-BF37-0E38C1836156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97FB17D-BAD2-401B-BF37-0E38C1836156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
