@@ -18,6 +18,7 @@ static void SumOfElementsInArrayRange()
     int[] elementMaxIndex = cheking.Item2;
 
     List<int> digits = new List<int>();
+    int sum = 0;
 
     for (int i = elementMinIndex[0]; i <= elementMaxIndex[0]; i++)
     {
@@ -30,6 +31,7 @@ static void SumOfElementsInArrayRange()
             }
 
             digits.Add(array[i, k]);
+            sum += array[i, k];
 
             if (i == elementMaxIndex[0] && k == elementMaxIndex[1])
             {
@@ -40,6 +42,7 @@ static void SumOfElementsInArrayRange()
 
     ShowOneDimensionalArray(digits.ToArray());
 
+    Console.WriteLine($"Сумма элементов в диапазоне равна: {sum}");
 }
 
 static (int[], int[]) IndexChek(int[] arrayX, int[] arrayY)
