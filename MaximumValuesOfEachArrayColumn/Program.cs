@@ -41,7 +41,7 @@ static int[,] GetArrayRandomDigits()
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = random.Next(-0, 100);
+            array[i, j] = random.Next(0, 100);
         }
     }
     return array;
