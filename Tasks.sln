@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.8 Regular_LoginAndPasswor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{35B72A40-525C-4FDE-B25B-D37EE43AF328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.9 ReplacingPrepositionsInTheText", "ReplacingPrepositionsInTheText\3.9 ReplacingPrepositionsInTheText.csproj", "{77D8C143-D991-4035-A177-D7F325715DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.9 ReplacingPrepositionsInTheText", "ReplacingPrepositionsInTheText\3.9 ReplacingPrepositionsInTheText.csproj", "{77D8C143-D991-4035-A177-D7F325715DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.0 AccessByAttribute", "AccessByAttribute\4.0 AccessByAttribute.csproj", "{B93BA2D2-C051-4032-8499-CC6B5C32787E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +199,10 @@ Global
 		{77D8C143-D991-4035-A177-D7F325715DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D8C143-D991-4035-A177-D7F325715DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D8C143-D991-4035-A177-D7F325715DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93BA2D2-C051-4032-8499-CC6B5C32787E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93BA2D2-C051-4032-8499-CC6B5C32787E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93BA2D2-C051-4032-8499-CC6B5C32787E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93BA2D2-C051-4032-8499-CC6B5C32787E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
