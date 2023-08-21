@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.6 MaximumValuesOfEachArra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.7 MatrixMultiplication", "MatrixMultiplication\3.7 MatrixMultiplication.csproj", "{B741FB7D-8952-4D1E-A64D-F11B0F8D5C26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.8 Regular_LoginAndPassword", "Regular_LoginAndPassword\3.8 Regular_LoginAndPassword.csproj", "{BC2B8B4E-D11B-4F72-BDED-83786E6398F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.8 Regular_LoginAndPassword", "Regular_LoginAndPassword\3.8 Regular_LoginAndPassword.csproj", "{BC2B8B4E-D11B-4F72-BDED-83786E6398F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{35B72A40-525C-4FDE-B25B-D37EE43AF328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,12 +187,17 @@ Global
 		{BC2B8B4E-D11B-4F72-BDED-83786E6398F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC2B8B4E-D11B-4F72-BDED-83786E6398F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC2B8B4E-D11B-4F72-BDED-83786E6398F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B72A40-525C-4FDE-B25B-D37EE43AF328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B72A40-525C-4FDE-B25B-D37EE43AF328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B72A40-525C-4FDE-B25B-D37EE43AF328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B72A40-525C-4FDE-B25B-D37EE43AF328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D8231D1C-D391-48FA-B5AC-FFAAE4DBC113} = {086AFF2A-6B48-40B4-BCD6-B773CFB78524}
+		{35B72A40-525C-4FDE-B25B-D37EE43AF328} = {086AFF2A-6B48-40B4-BCD6-B773CFB78524}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2A07CE2-D072-49F3-90A5-30D6F7CAB2DB}
