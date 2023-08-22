@@ -23,16 +23,17 @@ class Program
     }
     static void function()
     {
+        using StreamReader streamReader1 = new StreamReader(@"D:\Testing\Test1.txt");
+        string result1 = streamReader1.ReadToEnd();
+
+        using StreamReader streamReader2 = new StreamReader(@"D:\Testing\Test2.txt");
+        string result2 = streamReader2.ReadToEnd();
+
+
         lock (locker)
         {
-            using StreamReader streamReader1 = new StreamReader(@"D:\Testing\Test1.txt");
-            string result1 = streamReader1.ReadToEnd();
-
-            using StreamReader streamReader2 = new StreamReader(@"D:\Testing\Test2.txt");
-            string result2 = streamReader2.ReadToEnd();
-
             using StreamWriter streamWriter = new StreamWriter(@"D:\Testing\Test3.txt", true);
-            streamWriter.WriteLine("\n");
+            streamWriter.WriteLine("\n ID потока {0}", Thread.CurrentThread.ManagedThreadId);
             streamWriter.WriteLine(result1);
             streamWriter.WriteLine(result2);
         }
