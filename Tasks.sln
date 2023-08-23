@@ -71,7 +71,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.0 AccessByAttribute", "Ac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.1 MultipleStreamsWriteToOneFile", "MultipleStreamsWriteToOneFile\4.1 MultipleStreamsWriteToOneFile.csproj", "{D9A335B3-3E2A-4310-AEB7-8B1F9125883D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessViaSemaphore", "AccessViaSemaphore\AccessViaSemaphore.csproj", "{1452B31D-C215-42A6-B08A-E6A06ED677DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2 AccessViaSemaphore", "AccessViaSemaphore\4.2 AccessViaSemaphore.csproj", "{1452B31D-C215-42A6-B08A-E6A06ED677DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
