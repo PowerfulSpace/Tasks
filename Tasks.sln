@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.9 ReplacingPrepositionsIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.0 AccessByAttribute", "AccessByAttribute\4.0 AccessByAttribute.csproj", "{B93BA2D2-C051-4032-8499-CC6B5C32787E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1 MultipleStreamsWriteToOneFile", "MultipleStreamsWriteToOneFile\4.1 MultipleStreamsWriteToOneFile.csproj", "{D9A335B3-3E2A-4310-AEB7-8B1F9125883D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.1 MultipleStreamsWriteToOneFile", "MultipleStreamsWriteToOneFile\4.1 MultipleStreamsWriteToOneFile.csproj", "{D9A335B3-3E2A-4310-AEB7-8B1F9125883D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessViaSemaphore", "AccessViaSemaphore\AccessViaSemaphore.csproj", "{1452B31D-C215-42A6-B08A-E6A06ED677DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +211,10 @@ Global
 		{D9A335B3-3E2A-4310-AEB7-8B1F9125883D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9A335B3-3E2A-4310-AEB7-8B1F9125883D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9A335B3-3E2A-4310-AEB7-8B1F9125883D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1452B31D-C215-42A6-B08A-E6A06ED677DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1452B31D-C215-42A6-B08A-E6A06ED677DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1452B31D-C215-42A6-B08A-E6A06ED677DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1452B31D-C215-42A6-B08A-E6A06ED677DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
